@@ -3,22 +3,33 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+<div id="piano">
+  <img className="logo" src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg" alt="freeCodeCamp Logo" />
+  <div className="keys">
+    <div className="key" />
+    <div className="key black--key" />
+    <div className="key black--key" />
+    <div className="key" />
+    <div className="key black--key" />
+    <div className="key black--key" />
+    <div className="key black--key" />
+    <div className="key" />
+    <div className="key black--key" />
+    <div className="key black--key" />
+    <div className="key" />
+    <div className="key black--key" />
+    <div className="key black--key" />
+    <div className="key black--key" />
+    <div className="key" />
+    <div className="key black--key" />
+    <div className="key black--key" />
+    <div className="key" />
+    <div className="key black--key" />
+    <div className="key black--key" />
+    <div className="key black--key" />
+  </div>
+</div>
+
   );
 }
 
